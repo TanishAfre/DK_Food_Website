@@ -84,267 +84,197 @@ export const assets = {
 
 export const menu_list = [
     {
-        menu_name: "Salad",
+        menu_name: "Phones",
         menu_image: menu_1
     },
     {
-        menu_name: "Rolls",
+        menu_name: "Laptops Repair",
         menu_image: menu_2
     },
     {
-        menu_name: "Deserts",
+        menu_name: "Tablets Repair",
         menu_image: menu_3
     },
     {
-        menu_name: "Sandwich",
+        menu_name: "Phone Accessaries",
         menu_image: menu_4
     },
     {
-        menu_name: "Cake",
+        menu_name: "Vapes",
         menu_image: menu_5
-    },
-    {
-        menu_name: "Pure Veg",
-        menu_image: menu_6
-    },
-    {
-        menu_name: "Pasta",
-        menu_image: menu_7
-    },
-    {
-        menu_name: "Noodles",
-        menu_image: menu_8
     }]
 
 export const food_list = [
     {
         _id: "1",
-        name: "Greek salad",
+        name: "iPhone",
         image: food_1,
-        price: 12,
+        price: 700,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Salad"
+        category: "Phones"
     },
     {
         _id: "2",
-        name: "Veg salad",
+        name: "Samsung",
         image: food_2,
         price: 18,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Salad"
+        category: "Phones"
     }, {
         _id: "3",
-        name: "Clover Salad",
+        name: "One Plus",
         image: food_3,
         price: 16,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Salad"
+        category: "Phones"
     }, {
         _id: "4",
-        name: "Chicken Salad",
+        name: "Xiome",
         image: food_4,
         price: 24,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Salad"
+        category: "Phones"
     }, {
         _id: "5",
-        name: "Lasagna Rolls",
+        name: "Dell",
         image: food_5,
         price: 14,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Rolls"
+        category: "Laptops Repair"
     }, {
         _id: "6",
-        name: "Peri Peri Rolls",
+        name: "iMac",
         image: food_6,
         price: 12,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Rolls"
+        category: "Laptops Repair"
     }, {
         _id: "7",
-        name: "Chicken Rolls",
+        name: "Microsoft",
         image: food_7,
         price: 20,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Rolls"
+        category: "Laptops Repair"
     }, {
         _id: "8",
-        name: "Veg Rolls",
+        name: "Lenovo",
         image: food_8,
         price: 15,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Rolls"
+        category: "Laptops Repair"
     }, {
         _id: "9",
-        name: "Ripple Ice Cream",
+        name: "Ipads",
         image: food_9,
         price: 14,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Deserts"
+        category: "Tablets Repair"
     }, {
         _id: "10",
-        name: "Fruit Ice Cream",
+        name: "Samsung Tablets",
         image: food_10,
         price: 22,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Deserts"
+        category: "Tablets Repair"
     }, {
         _id: "11",
-        name: "Jar Ice Cream",
+        name: "Honor Tabs",
         image: food_11,
         price: 10,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Deserts"
+        category: "Tablets Repair"
     }, {
         _id: "12",
-        name: "Vanilla Ice Cream",
+        name: "All Other Tablets",
         image: food_12,
         price: 12,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Deserts"
+        category: "Tablets Repair"
     },
     {
         _id: "13",
-        name: "Chicken Sandwich",
+        name: "Screen Protectors",
         image: food_13,
         price: 12,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Sandwich"
+        category: "Phone Accessaries"
     },
     {
         _id: "14",
-        name: "Vegan Sandwich",
+        name: "Phone Covers",
         image: food_14,
         price: 18,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Sandwich"
+        category: "Phone Accessaries"
     }, {
         _id: "15",
-        name: "Grilled Sandwich",
+        name: "Headphones and Earphones",
         image: food_15,
         price: 16,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Sandwich"
+        category: "Phone Accessaries"
     }, {
         _id: "16",
-        name: "Bread Sandwich",
+        name: "Power Banks",
         image: food_16,
         price: 24,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Sandwich"
+        category: "Phone Accessaries"
     }, {
         _id: "17",
-        name: "Cup Cake",
+        name: "Chargers and Cables",
         image: food_17,
         price: 14,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Cake"
+        category: "Phone Accessaries"
     }, {
         _id: "18",
-        name: "Vegan Cake",
+        name: "Smart Watches",
         image: food_18,
         price: 12,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Cake"
+        category: "Phone Accessaries"
     }, {
         _id: "19",
-        name: "Butterscotch Cake",
+        name: "Speakers",
         image: food_19,
         price: 20,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Cake"
+        category: "Phone Accessaries"
     }, {
         _id: "20",
         name: "Sliced Cake",
         image: food_20,
         price: 15,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Cake"
+        category: "Phone Accessaries"
     }, {
         _id: "21",
-        name: "Garlic Mushroom ",
+        name: "Vape Pods ",
         image: food_21,
         price: 14,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pure Veg"
+        category: "Vapes"
     }, {
         _id: "22",
-        name: "Fried Cauliflower",
+        name: "Vape Pens",
         image: food_22,
         price: 22,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pure Veg"
+        category: "Vapes"
     }, {
         _id: "23",
-        name: "Mix Veg Pulao",
+        name: "Disposable Vapes",
         image: food_23,
         price: 10,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pure Veg"
+        category: "Vapes"
     }, {
         _id: "24",
-        name: "Rice Zucchini",
+        name: "Vape Box Mods",
         image: food_24,
         price: 12,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pure Veg"
-    },
-    {
-        _id: "25",
-        name: "Cheese Pasta",
-        image: food_25,
-        price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pasta"
-    },
-    {
-        _id: "26",
-        name: "Tomato Pasta",
-        image: food_26,
-        price: 18,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pasta"
-    }, {
-        _id: "27",
-        name: "Creamy Pasta",
-        image: food_27,
-        price: 16,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pasta"
-    }, {
-        _id: "28",
-        name: "Chicken Pasta",
-        image: food_28,
-        price: 24,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pasta"
-    }, {
-        _id: "29",
-        name: "Buttter Noodles",
-        image: food_29,
-        price: 14,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Noodles"
-    }, {
-        _id: "30",
-        name: "Veg Noodles",
-        image: food_30,
-        price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Noodles"
-    }, {
-        _id: "31",
-        name: "Somen Noodles",
-        image: food_31,
-        price: 20,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Noodles"
-    }, {
-        _id: "32",
-        name: "Cooked Noodles",
-        image: food_32,
-        price: 15,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Noodles"
+        category: "Vapes"
     }
 ]
