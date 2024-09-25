@@ -58,6 +58,7 @@ const Login = () => {
   return (
     <div className="login">
       <form className="login-container " onSubmit={handelOnSupmit}>
+      <p className="admin-only">Only for admin</p>
         <div className="login-title">
           <h2>{currentState}</h2>
           <img
@@ -66,67 +67,70 @@ const Login = () => {
             alt=""
           />
         </div>
-        <div className="login-inputs">
-          {currentState === "Login" ? (
-            <></>
-          ) : (
+        
+          <div className="login-inputs">
+            {currentState === "Login" ? (
+              <></>
+            ) : (
+              <input
+                type="text"
+                placeholder="Your Name"
+                name="name"
+                onChange={(e) => handelOnChange(e)}
+                required
+              />
+            )}
             <input
-              type="text"
-              placeholder="Your Name"
-              name="name"
+              type="email"
+              placeholder="Your E-mail"
+              name="email"
               onChange={(e) => handelOnChange(e)}
               required
             />
-          )}
-          <input
-            type="email"
-            placeholder="Your E-mail"
-            name="email"
-            onChange={(e) => handelOnChange(e)}
-            required
-          />
-          <input
-            type="password"
-            placeholder="Password"
-            name="password"
-            onChange={(e) => handelOnChange(e)}
-            required
-          />
-        </div>
-        {currentState === "Sing UP" ? (
-          <button type="submit" onClick={handleSignup}>
-            Sign Up
-          </button>
-        ) : (
-          <button onClick={handelLogin} type="submit">
-            Login
-          </button>
-        )}
-        {currentState === "Sing UP" ? (
-          <div className="login-condition">
             <input
-              type="checkbox"
+              type="password"
+              placeholder="Password"
+              name="password"
+              onChange={(e) => handelOnChange(e)}
               required
-              name="checkbox"
-              onChange={() => setIsChecked(!isChecked)}
-              checked={isChecked}
             />
-            <p>By continuing , i agree to the terms of use & Privacy policy.</p>
           </div>
-        ) : (
-          <></>
-        )}
-        {currentState === "Login" ? (
-          <p>
-            Create a new account?
-            <span onClick={() => setCurrentState("Sing UP")}>Click here</span>
-          </p>
-        ) : (
-          <p>
-            Already have an account?
-            <span onClick={() => setCurrentState("Login")}>Login here</span>
-          </p>
-        )}
+        
+          {currentState === "Sing UP" ? (
+            <button type="submit" onClick={handleSignup}>
+              Sign Up
+            </button>
+          ) : (
+            <button onClick={handelLogin} type="submit">
+              Login
+            </button>
+          )}
+          {currentState === "Sing UP" ? (
+            <div className="login-condition">
+              <input
+                type="checkbox"
+                required
+                name="checkbox"
+                onChange={() => setIsChecked(!isChecked)}
+                checked={isChecked}
+              />
+              <p>By continuing , i agree to the terms of use & Privacy policy.</p>
+            </div>
+          ) : (
+            <></>
+          )}
+          {currentState === "Login" ? (
+            <p>
+              
+              <span onClick={() => setCurrentState("Sing UP")}></span>
+            </p>
+          ) : (
+            <p>
+              Already have an account?
+              <span onClick={() => setCurrentState("Login")}>Login here</span>
+            </p>
+          )}
+        
       </form>
       <Toaster />
     </div>
