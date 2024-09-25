@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Outfit:wght@100..900&display=swap');
+.review-container {
+    max-width: 95%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  .review-cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  .review-card {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: calc(33.333% - 20px);
+    transition: all 0.3s ease;
+  }
+  .review-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  }
+  h3 {
+    margin-top: 0;
+    color: #444;
+  }
+  .rating {
+    color: #ffd700;
+    font-size: 1.2em;
+  }
+  .comment {
+    color: #666;
+    font-style: italic;
+  }
