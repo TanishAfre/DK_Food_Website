@@ -37,13 +37,13 @@ const Navbar = () => {
             Menu
           </a>
           <a
-            href="#app-download"
+            href="#reviews"
             onClick={() => {
-              setMenu("Mobli-app");
+              setMenu("Reviews");
             }}
-            className={menu === "Mobli-app" ? "active" : ""}
+            className={menu === "Reviews" ? "active" : ""}
           >
-            Mobli-app
+            Reviews
           </a>
           <a
             href="#footer"
@@ -56,7 +56,7 @@ const Navbar = () => {
           </a>
         </ul>
         <div className="navbar-right"> 
-          <img src={assets.search_icon} alt="search" />
+          {/* <img src={assets.search_icon} alt="search" /> */}
           <div className="navbar-search-icon">
             <Link to="/cart">
               <img src={assets.basket_icon} />

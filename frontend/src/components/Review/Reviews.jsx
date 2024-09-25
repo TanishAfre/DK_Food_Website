@@ -34,7 +34,7 @@ const Reviews = () => {
   }, []);
 
   return (
-    <div className="review-container">
+    <div className="review-container" id='reviews'>
       <h2>Customer Reviews</h2>
       <div className={`review-cards ${fade ? 'fade-in' : 'fade-out'}`}>
         {displayedReviews.map((review) => (
