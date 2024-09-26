@@ -12,7 +12,7 @@ const FoodDisplay = ({category}) => {
             <h2>Our Top Products</h2>
             <div className="food-display-list">
             {filteredItems.map((item, index) => (
-                    <FoodItem key={index} id={item._id} name={item.name} price={item.price} description={item.description} image={item.image}/>
+                    <FoodItem key={index} id={item._id} name={item.name} price1={item.price1} price2={item.price2 || null} description={item.description} image={item.image}/>
                 ))}
             </div>
         </div>

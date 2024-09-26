@@ -14,7 +14,23 @@ const Cart = () => {
         navigate('/')
       }, 2000);
     }else{
-      navigate('/order')
+      toast((t) => (
+        <span>
+          Go back to home, as payment options are temporarily closed.
+          <button onClick={() => {
+            toast.dismiss(t.id);
+            navigate('/');
+          }}>
+            Go Home
+          </button>
+        </span>
+      ), {
+        duration: 5000,
+        style: {
+          background: '#333',
+          color: '#fff',
+        },
+      });
     }
   }
   return (
@@ -38,9 +54,9 @@ const Cart = () => {
                   <div className="cart-items-title cart-items-item">
                     <img src={item.image} />
                     <p>{item.name}</p>
-                    <p>${item.price}</p>
+                    <p>€{item.price}</p>
                     <p>{cartItems[item._id]}</p>
-                    <p>${item.price * cartItems[item._id]}</p>
+                    <p>€{item.price * cartItems[item._id]}</p>
                     <p
                       onClick={() => removeFromCart(item._id)}
                       className="remove"

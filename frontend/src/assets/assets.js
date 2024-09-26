@@ -82,6 +82,7 @@ export const assets = {
     parcel_icon
 }
 
+
 export const menu_list = [
     {
         menu_name: "Phones",
@@ -109,85 +110,97 @@ export const food_list = [
         _id: "1",
         name: "iPhone",
         image: food_1,
-        price: 700,
-        description: "Food provides essential nutrients for overall health and well-being",
+        price1: 600,
+        price2: 2400,
+        description: "We sell all types of iPhones from iphone 12 to iPhone 16 pro max",
         category: "Phones"
     },
     {
         _id: "2",
         name: "Samsung",
         image: food_2,
-        price: 18,
-        description: "Food provides essential nutrients for overall health and well-being",
+        price1: 300,
+        price2: 2200,
+        description: "All brand new and old samsung phones are available",
         category: "Phones"
     }, {
         _id: "3",
         name: "One Plus",
         image: food_3,
-        price: 16,
-        description: "Food provides essential nutrients for overall health and well-being",
+        price1: 300,
+        price2: 800,
+        description: "Latest collection of one plus phone available in our store",
         category: "Phones"
     }, {
         _id: "4",
         name: "Xiome",
         image: food_4,
-        price: 24,
-        description: "Food provides essential nutrients for overall health and well-being",
+        price1: 300,
+        price2: 1000,
+        description: "Budget smart phones with best features available",
         category: "Phones"
     }, {
         _id: "5",
         name: "Dell",
         image: food_5,
-        price: 14,
+        price1: 500,
+        price2: 2000,
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Laptops Repair"
     }, {
         _id: "6",
         name: "iMac",
         image: food_6,
-        price: 12,
+        price1: 1200,
+        price2: 3000,
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Laptops Repair"
     }, {
         _id: "7",
         name: "Microsoft",
         image: food_7,
-        price: 20,
+        price1: 500,
+        price2: 1500,
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Laptops Repair"
     }, {
         _id: "8",
         name: "Lenovo",
         image: food_8,
-        price: 15,
+        price1: 300,
+        price2: 1500,
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Laptops Repair"
     }, {
         _id: "9",
         name: "Ipads",
         image: food_9,
-        price: 14,
+        price1: 449,
+        price2: 1229,
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Tablets Repair"
     }, {
         _id: "10",
         name: "Samsung Tablets",
         image: food_10,
-        price: 22,
+        price1: 200,
+        price2: 600,
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Tablets Repair"
     }, {
         _id: "11",
         name: "Honor Tabs",
         image: food_11,
-        price: 10,
+        price1: 150,
+        price2: 500,
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Tablets Repair"
     }, {
         _id: "12",
         name: "All Other Tablets",
         image: food_12,
-        price: 12,
+        price1: 100,
+        price2: 2000,
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Tablets Repair"
     },
@@ -195,7 +208,7 @@ export const food_list = [
         _id: "13",
         name: "Screen Protectors",
         image: food_13,
-        price: 12,
+        price1: 15,
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Phone Accessaries"
     },
@@ -203,77 +216,82 @@ export const food_list = [
         _id: "14",
         name: "Phone Covers",
         image: food_14,
-        price: 18,
+        price1: 10,
+        price2: 50,
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Phone Accessaries"
     }, {
         _id: "15",
         name: "Headphones and Earphones",
         image: food_15,
-        price: 16,
+        price1: 10,
+        price2: 500,
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Phone Accessaries"
     }, {
         _id: "16",
         name: "Power Banks",
         image: food_16,
-        price: 24,
+        price1: 15,
+        price2: 50,
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Phone Accessaries"
     }, {
         _id: "17",
         name: "Chargers and Cables",
         image: food_17,
-        price: 14,
+        price1: 20,
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Phone Accessaries"
     }, {
         _id: "18",
         name: "Smart Watches",
         image: food_18,
-        price: 12,
+        price1: 30,
+        price2: 300,
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Phone Accessaries"
     }, {
         _id: "19",
         name: "Speakers",
         image: food_19,
-        price: 20,
+        price1: 20,
+        price2: 100,
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Phone Accessaries"
     }, {
         _id: "20",
-        name: "Sliced Cake",
+        name: "Car Adapter",
         image: food_20,
-        price: 15,
+        price1: 20,
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Phone Accessaries"
     }, {
         _id: "21",
         name: "Vape Pods ",
         image: food_21,
-        price: 14,
+        price1: 30,
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Vapes"
     }, {
         _id: "22",
         name: "Vape Pens",
         image: food_22,
-        price: 22,
+        price1: 30,
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Vapes"
     }, {
         _id: "23",
         name: "Disposable Vapes",
         image: food_23,
-        price: 10,
+        price1: 7,
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Vapes"
     }, {
         _id: "24",
         name: "Vape Box Mods",
         image: food_24,
-        price: 12,
+        price1: 50,
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Vapes"
     }
